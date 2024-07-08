@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: linear-gradient(to left top, #ddd6fe, #a5b4fc);
+}
+
+/* Width for both horizontal and vertical */
+::-webkit-scrollbar {
+    width: 0rem;
+    height: 0rem; /* Added for vertical scrollbar width */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f13c; /* Grey background */
+  }
+  
+  /* Handle for both horizontal and vertical */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Grey handle */
+    width: .1rem; /* Decrease the width */
+    height: .1rem; /* Added for vertical scrollbar width */
+  }
+  
+  /* Handle on hover for both horizontal and vertical */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; /* Black handle */
+  }
